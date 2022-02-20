@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     public function index(){
-        return view('backend.layouts.partials.master');
+        return view('backend.pages.dashboard.index');
     }
 }
