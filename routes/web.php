@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\backend\AdminController;
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,10 +26,6 @@ use App\Http\Controllers\backend\AdminController;
 Route::group(['prefix' => 'admin'], function () {
 
     Route::get('/', [AdminController::class, 'index'])->name('admin_dashboard');
-    
+
 });
 
-
-// Auth::routes();
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

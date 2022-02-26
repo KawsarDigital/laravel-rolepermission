@@ -40,7 +40,7 @@
         @include('backend.layouts.partials.sidebar')
 
 
-
+        @include('backend.layouts.partials.headerArea')
         <!-- main content area start -->
 
 
@@ -49,11 +49,15 @@
 
         <!-- main content area end -->
 
-
-
-        @include('backend.layouts.partials.footer')
+      
 
     </div>
+
+ 
+
+   
+    </div>
+    @include('backend.layouts.partials.footer')
     <!-- page container area end -->
     <!-- offset area start -->
     <div class="offset-area">
